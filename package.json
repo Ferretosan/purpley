@@ -1,0 +1,31 @@
+{
+  "name": "purpley",
+  "displayName": "Purpley",
+  "description": "A brand new theme for VS Code, focused on the colour purple.",
+  "version": "0.0.1",
+  "publisher": "Ferretosan",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ferretosan/purpley.git"
+  },
+  "license": "Unlicense",
+  "categories": [
+    "Themes"
+  ],
+  "icon": "extension/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Purpley",
+        "uiTheme": "vs-dark",
+        "path": "./themes/purpley.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "ovsx": "^0.10.4"
+  }
+}
